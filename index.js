@@ -106,3 +106,19 @@ else {
         break;
  }
 
+/* Les Boucles */
+
+let compteur = 0;
+
+// Tant que compteur plus petit ou égal à 100, alors
+while (compteur <= 100) {
+    console.log(compteur);
+
+    compteur = compteur + 1; 
+    // peut s'écrire comme ceci:
+    // compteur += 1;
+    // compteur++;
+}
+// /!\ Il faut atteindre la condtion sinon on a une boucle infini!
+
+console.log("Fin de la boucle")
