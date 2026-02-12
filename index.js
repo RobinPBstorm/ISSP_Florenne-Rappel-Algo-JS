@@ -121,4 +121,19 @@ while (compteur <= 100) {
 }
 // /!\ Il faut atteindre la condtion sinon on a une boucle infini!
 
+console.log("Fin de la boucle");
+
+
+
+compteur = 0;
+
+// Faire ... Tant que compteur plus petit ou égal à 100
+do {
+    console.log(compteur);
+
+    compteur = compteur + 1; 
+    // peut s'écrire comme ceci:
+    // compteur += 1;
+    // compteur++;
+} while (compteur > 100);
 console.log("Fin de la boucle")
