@@ -137,3 +137,28 @@ do {
     // compteur++;
 } while (compteur > 100);
 console.log("Fin de la boucle")
+
+
+/* Les tableaux et la boucle for */
+
+// let notes = new Array();
+let notes = [];
+
+notes[0] = 15;
+notes[1] = 17;
+notes[2] = 3;
+notes[3] = 18;
+
+for (let i = 0; i < notes.length; i++) {
+    if (notes[i] >= 18) {
+        console.log(notes[i]+ " est une note Exellente");
+    }
+    else if (notes[i] >= 16) {
+        console.log(notes[i]+ " est une note trés bien");
+    }
+    else {
+        console.log(notes[i]+ " note basse");
+    }
+}
+
+console.log(notes);
